@@ -30,30 +30,13 @@ Fora do horário de aula ou monitoria:
 
 ## Scripts utilizados em aula
 
-| script                                                                                                                                  |
-|:----------------------------------------------------------------------------------------------------------------------------------------|
-| [exemplos_de_aula/01-introducao.R](https://github.com/curso-r/202210-visualizacao/blob/master/exemplos_de_aula/01-introducao.R)         |
-| [exemplos_de_aula/02-otimizacao.R](https://github.com/curso-r/202210-visualizacao/blob/master/exemplos_de_aula/02-otimizacao.R)         |
-| [exemplos_de_aula/03-extensoes.R](https://github.com/curso-r/202210-visualizacao/blob/master/exemplos_de_aula/03-extensoes.R)           |
-| [exemplos_de_aula/04-interatividade.R](https://github.com/curso-r/202210-visualizacao/blob/master/exemplos_de_aula/04-interatividade.R) |
+| script |
+|:-------|
 
 ## Lição de casa
 
-| exercicio                                                                                                                |
-|:-------------------------------------------------------------------------------------------------------------------------|
-| [exercicios/01-introducao.R](https://curso-r.github.io/main-visualizacao/exercicios/01-introducao.R)                     |
-| [exercicios/02-otimizacao.R](https://curso-r.github.io/main-visualizacao/exercicios/02-otimizacao.R)                     |
-| [exercicios/02-pinguins.png](https://curso-r.github.io/main-visualizacao/exercicios/02-pinguins.png)                     |
-| [exercicios/02-pixar.png](https://curso-r.github.io/main-visualizacao/exercicios/02-pixar.png)                           |
-| [exercicios/02-voos.png](https://curso-r.github.io/main-visualizacao/exercicios/02-voos.png)                             |
-| [exercicios/03-extensoes.R](https://curso-r.github.io/main-visualizacao/exercicios/03-extensoes.R)                       |
-| [exercicios/03-pinguins_histogram.png](https://curso-r.github.io/main-visualizacao/exercicios/03-pinguins_histogram.png) |
-| [exercicios/03-starwars.png](https://curso-r.github.io/main-visualizacao/exercicios/03-starwars.png)                     |
-| [exercicios/04-interatividade-sf.R](https://curso-r.github.io/main-visualizacao/exercicios/04-interatividade-sf.R)       |
-| [exercicios/star_wars](https://curso-r.github.io/main-visualizacao/exercicios/star_wars)                                 |
-| [exercicios/star_wars/hansolo.jpeg](https://curso-r.github.io/main-visualizacao/exercicios/star_wars/hansolo.jpeg)       |
-| [exercicios/star_wars/leia.jpeg](https://curso-r.github.io/main-visualizacao/exercicios/star_wars/leia.jpeg)             |
-| [exercicios/star_wars/luke.jpeg](https://curso-r.github.io/main-visualizacao/exercicios/star_wars/luke.jpeg)             |
+| exercicio |
+|:----------|
 
 ## Trabalhos finais premiados
 
@@ -66,46 +49,7 @@ Referências extras relacionadas com o conteúdos das aulas, ou materiais
 que comentamos quando tiramos dúvidas (não necessariamente são
 relacionadas com o conteúdo da aula).
 
-| Aula | Tema           | Descrição                                                                                                                                                                                              |
-|-----:|:---------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|    0 | 1\. Básico     | [Cores no R](http://www.stat.columbia.edu/~tzheng/files/Rcolor.pdf)                                                                                                                                    |
-|    0 | 1\. Básico     | [Documentação do ggplot2](https://ggplot2.tidyverse.org/reference/index.html)                                                                                                                          |
-|    0 | 1\. Básico     | [Especificações aestéticas do ggplot2](https://ggplot2.tidyverse.org/articles/ggplot2-specs.html)                                                                                                      |
-|    0 | 1\. Básico     | [Vignette do ggplot - Especificações do aes()](https://ggplot2.tidyverse.org/articles/ggplot2-specs.html)                                                                                              |
-|    0 | 1\. Básico     | [Formatação de datas - documentação da função strptime](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/strptime)                                                                   |
-|    0 | 1\. Básico     | [Livro da Curso-R - Capítulo sobre Fatores](https://livro.curso-r.com/7-6-forcats.html)                                                                                                                |
-|    0 | 2\. Otimização | [Paletas de cores hexadecimais](https://coolors.co/generate)                                                                                                                                           |
-|    0 | 2\. Otimização | [Pacote prismatic::color(colors())](https://emilhvitfeldt.github.io/prismatic/)                                                                                                                        |
-|    0 | 2\. Otimização | [Color brewer](https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3)                                                                                                                              |
-|    0 | 2\. Otimização | [Tinter, voce da uma cor e ele gera uma paleta!](https://github.com/sebdalgarno/tinter)                                                                                                                |
-|    0 | 2\. Otimização | [Pacote para visualização de paletas de cores](https://github.com/EmilHvitfeldt/paletteer)                                                                                                             |
-|    0 | 2\. Otimização | [Visualização de paletas para daltonicos](https://davidmathlogic.com/colorblind/#%23D81B60-%231E88E5-%23FFC107-%23004D40)                                                                              |
-|    0 | 2\. Otimização | [Pacote extrafont - importar fontes no windows](https://github.com/wch/extrafont)                                                                                                                      |
-|    0 | 2\. Otimização | [Exemplos de ggthemes](https://yutannihilation.github.io/allYourFigureAreBelongToUs/ggthemes/)                                                                                                         |
-|    0 | 2\. Otimização | [Documentação Color Brewer ggplot2](https://ggplot2.tidyverse.org/reference/scale_brewer.html)                                                                                                         |
-|    0 | 2\. Otimização | [Pacote Thematic](https://rstudio.github.io/thematic/index.html)                                                                                                                                       |
-|    0 | 3\. Extensões  | [Pacote ggrepel - afastar as anotações (labels)](https://ggrepel.slowkow.com/)                                                                                                                         |
-|    0 | 3\. Extensões  | [Pacote gghighlight - realçando pontos](https://blog.curso-r.com/posts/2020-02-20-gghighlight/)                                                                                                        |
-|    0 | 3\. Extensões  | [Galeria de extensões para o ggplot2](https://exts.ggplot2.tidyverse.org/gallery/)                                                                                                                     |
-|    0 | 3\. Extensões  | [Pacote ggrepel - afastar as anotações (labels)](https://cran.r-project.org/web/packages/ggrepel/vignettes/ggrepel.html)                                                                               |
-|    0 | 3\. Extensões  | [Hrbrthemes](https://github.com/hrbrmstr/hrbrthemes)                                                                                                                                                   |
-|    0 | 3\. Extensões  | [Pacote ggridges](https://wilkelab.org/ggridges/)                                                                                                                                                      |
-|    0 | 4\. Dinâmico   | [Pacote plotly](https://plotly.com/ggplot2/)                                                                                                                                                           |
-|    0 | 4\. Dinâmico   | [Geocoding de endereços](https://github.com/dkahle/ggmap)                                                                                                                                              |
-|    0 | 4\. Dinâmico   | [Unindo mapas the tidy way](https://blog.curso-r.com/posts/2017-11-23-union-sf/)                                                                                                                       |
-|    0 | 4\. Dinâmico   | [Pacote rayshader - mapas em 3d](https://www.rayshader.com)                                                                                                                                            |
-|    0 | 4\. Dinâmico   | [Documentação do pacote geobr](https://ipeagit.github.io/geobr/)                                                                                                                                       |
-|    0 | 4\. Dinâmico   | [documentação do pacote geobr](https://ipeagit.github.io/geobr/)                                                                                                                                       |
-|    0 | 4\. Dinâmico   | [Organização no GitHub r-spatial](http://github.com/r-spatial/)                                                                                                                                        |
-|    0 | 4\. Dinâmico   | [Conteúdo sobre mapas em português](https://jonnyphillips.github.io/Ciencia_de_Dados/Mapas.html)                                                                                                       |
-|    0 | x\. Miscelânea | [Ferramenta para buscar as cores em hex](https://htmlcolorcodes.com/)                                                                                                                                  |
-|    0 | x\. Miscelânea | [Exemplos maravilhosos de tidytuesday](https://github.com/z3tt/TidyTuesday)                                                                                                                            |
-|    0 | x\. Miscelânea | [Curiosidade sobre o ggplot2 e Hadley Wickham](https://www.reddit.com/r/dataisbeautiful/comments/3mp9r7/im_hadley_wickham_chief_scientist_at_rstudio_and/)                                             |
-|    0 | x\. Miscelânea | [Alberto Cairo - Referência sobre visualização de dados](https://twitter.com/AlbertoCairo)                                                                                                             |
-|    0 | x\. Miscelânea | [Curiosidade: Pacote de fonte xkcd](https://xkcd.r-forge.r-project.org)                                                                                                                                |
-|    0 | x\. Miscelânea | [Curiosidade: arte com ggplot2](https://www.data-imaginist.com/art)                                                                                                                                    |
-|    0 | x\. Miscelânea | [Apresentação ggplot wizardry](https://twitter.com/CedScherer/status/1374330476412993541?s=20)                                                                                                         |
-|    0 | x\. Miscelânea | [G. A. (1956). The magical number seven, plus or minus two: Some limits on our capacity for processing information. Psychological Review, 63(2), 81–97.](https://www.csc2.ncsu.edu/faculty/healey/PP/) |
+    #> NULL
 
 ## Redes sociais da Curso-R
 

@@ -89,7 +89,8 @@ knitr::kable(
     )
   ) %>%
     dplyr::mutate(script = glue::glue("[{script}]({link})")) %>%
-    dplyr::select(script)
+    dplyr::select(script) |> 
+    dplyr::slice(0)
 )
 ```
 
@@ -104,6 +105,7 @@ tibble::tibble(
 ) %>%
     dplyr::filter(!stringr::str_detect(nome, "resolucao_")) %>% 
   dplyr::select(exercicio) %>% 
+    dplyr::slice(0) |> 
   knitr::kable()
 ```
 
@@ -124,6 +126,7 @@ tibble::tibble(
   pasta_compactada = glue::glue("[{script}]({link})")
 ) %>% 
   dplyr::select(pasta_compactada) %>% 
+    dplyr::slice(0) |> 
   knitr::kable()
 ```
 
@@ -153,7 +156,8 @@ id_spreadsheet %>%
   dplyr::mutate(link = glue::glue("[{desc}]({url})")) %>%
   dplyr::select(-desc,-url) %>%
   dplyr::arrange(aula) %>%
-  # dplyr::filter(aula <= params$num_aula) %>%
+  dplyr::filter(aula <= params$num_aula) %>%
+    dplyr::slice(0) |> 
   knitr::kable(col.names = c("Aula", "Tema", "Descrição")) 
 }, "erro")
 
@@ -163,7 +167,7 @@ tabela <- safe_buscar_materiais_extras()
 if(tabela[1] == "erro") {
   print("Verificar tabela de materiais extras")
 } else{
-  tabela
+
 }
 
 ```

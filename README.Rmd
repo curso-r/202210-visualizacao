@@ -45,14 +45,14 @@ Fora do horário de aula ou monitoria:
 ## Slides
 
 ```{r}
-paths <- CursoRopen:::list_github_files(params$main_repo, "slides/", "[0-9]-.*html$") %>% 
+paths <- CursoRopen:::list_github_files(params$main_repo, "slides/", ".*html$") %>% 
   tibble::enframe(value = "paths") %>% 
   dplyr::filter(!stringr::str_detect(paths, "figure-html")) %>% 
   dplyr::mutate(file_path_sem_extencao = tools::file_path_sans_ext(paths)) %>% 
   dplyr::select(-name)
 
 
-paths_pdf <- CursoRopen:::list_github_files(params$main_repo, "slides/", "[0-9]-.*pdf$") %>% 
+paths_pdf <- CursoRopen:::list_github_files(params$main_repo, "slides/", "*pdf$") %>% 
   tibble::enframe(value = "paths_pdf") %>% 
   dplyr::mutate(file_path_sem_extencao = tools::file_path_sans_ext(paths_pdf)) %>%
   dplyr::select(-name)

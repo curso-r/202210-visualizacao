@@ -36,14 +36,15 @@ Fora do horário de aula ou monitoria:
 
 ## Scripts de prática durante a aula
 
-| script                                                                                  |
-|:----------------------------------------------------------------------------------------|
-| [01-ggplot2.R](https://github.com/curso-r/202210-visualizacao/blob/master/01-ggplot2.R) |
+| script                                                                                        |
+|:----------------------------------------------------------------------------------------------|
+| [01-ggplot2.R](https://github.com/curso-r/202210-visualizacao/blob/main/pratica/01-ggplot2.R) |
 
 ## Lição de casa
 
-| exercicio |
-|:----------|
+| exercicio                                                                                            |
+|:-----------------------------------------------------------------------------------------------------|
+| [exercicios/01-introducao.R](https://curso-r.github.io/main-visualizacao/exercicios/01-introducao.R) |
 
 ## Trabalhos finais premiados
 
@@ -56,7 +57,13 @@ Referências extras relacionadas com o conteúdos das aulas, ou materiais
 que comentamos quando tiramos dúvidas (não necessariamente são
 relacionadas com o conteúdo da aula).
 
-    #> NULL
+| Aula | Tema           | Descrição                                                                                                                                                  |
+|-----:|:---------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+|    1 | 1\. Básico     | [Cores no R](http://www.stat.columbia.edu/~tzheng/files/Rcolor.pdf)                                                                                        |
+|    1 | 1\. Básico     | [Documentação do ggplot2](https://ggplot2.tidyverse.org/reference/index.html)                                                                              |
+|    1 | 1\. Básico     | [Especificações aestéticas do ggplot2](https://ggplot2.tidyverse.org/articles/ggplot2-specs.html)                                                          |
+|    1 | 1\. Básico     | [Cheatsheet do ggplot2](https://github.com/rstudio/cheatsheets/blob/main/data-visualization-2.1.pdf)                                                       |
+|    1 | x\. Miscelânea | [Curiosidade sobre o ggplot2 e Hadley Wickham](https://www.reddit.com/r/dataisbeautiful/comments/3mp9r7/im_hadley_wickham_chief_scientist_at_rstudio_and/) |
 
 ## Redes sociais da Curso-R
 

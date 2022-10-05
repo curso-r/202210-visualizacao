@@ -107,7 +107,8 @@ knitr::kable(
     link = paste0(
       "https://github.com/curso-r/",
       params$turma,
-      "/blob/master/",
+      "/blob/main/",
+      pasta, 
       script
     )
   ) %>%
@@ -126,7 +127,7 @@ tibble::tibble(
 ) %>%
     dplyr::filter(!stringr::str_detect(nome, "resolucao_")) %>% 
   dplyr::select(exercicio) %>% 
-    dplyr::slice(0) |> 
+    dplyr::slice(1) |> 
   knitr::kable()
 ```
 
@@ -187,7 +188,7 @@ tabela <- safe_buscar_materiais_extras()
 if(tabela[1] == "erro") {
   print("Verificar tabela de materiais extras")
 } else{
-
+  tabela
 }
 
 ```

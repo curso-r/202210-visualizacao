@@ -5,7 +5,7 @@ params:
   trilha_clean: visualizacao
   turma: 202210-visualizacao
   nome_curso: Visualização de dados
-  num_aula: '0'
+  num_aula: '1'
   download_material: 'TRUE'
 ---
 
@@ -90,10 +90,31 @@ knitr::kable(
   ) %>%
     dplyr::mutate(script = glue::glue("[{script}]({link})")) %>%
     dplyr::select(script) |> 
-    dplyr::slice(0)
+    dplyr::slice(1)
 )
 ```
 
+
+## Scripts de prática durante a aula
+
+```{r}
+pasta <- "pratica/"
+
+
+knitr::kable(
+  tibble::tibble(
+    script = list.files(pasta, ".R$"),
+    link = paste0(
+      "https://github.com/curso-r/",
+      params$turma,
+      "/blob/master/",
+      script
+    )
+  ) %>%
+    dplyr::mutate(script = glue::glue("[{script}]({link})")) %>%
+    dplyr::select(script) 
+)
+```
 
 ## Lição de casa
 
@@ -157,7 +178,6 @@ id_spreadsheet %>%
   dplyr::select(-desc,-url) %>%
   dplyr::arrange(aula) %>%
   dplyr::filter(aula <= params$num_aula) %>%
-    dplyr::slice(0) |> 
   knitr::kable(col.names = c("Aula", "Tema", "Descrição")) 
 }, "erro")
 

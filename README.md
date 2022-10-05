@@ -30,8 +30,15 @@ Fora do horário de aula ou monitoria:
 
 ## Scripts utilizados em aula
 
-| script |
-|:-------|
+| script                                                                                                                          |
+|:--------------------------------------------------------------------------------------------------------------------------------|
+| [exemplos_de_aula/01-introducao.R](https://github.com/curso-r/202210-visualizacao/blob/master/exemplos_de_aula/01-introducao.R) |
+
+## Scripts de prática durante a aula
+
+| script                                                                                  |
+|:----------------------------------------------------------------------------------------|
+| [01-ggplot2.R](https://github.com/curso-r/202210-visualizacao/blob/master/01-ggplot2.R) |
 
 ## Lição de casa
 

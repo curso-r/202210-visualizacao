@@ -5,7 +5,7 @@ params:
   trilha_clean: visualizacao
   turma: 202210-visualizacao
   nome_curso: Visualização de dados
-  num_aula: '1'
+  num_aula: 2
   download_material: 'TRUE'
 ---
 
@@ -89,8 +89,7 @@ knitr::kable(
     )
   ) %>%
     dplyr::mutate(script = glue::glue("[{script}]({link})")) %>%
-    dplyr::select(script) |> 
-    dplyr::slice(1)
+    dplyr::select(script)
 )
 ```
 
@@ -121,13 +120,14 @@ knitr::kable(
 
 ```{r}
 tibble::tibble(
-  nome = CursoRopen:::list_github_files(params$main_repo, "exercicios/"),
-  link = paste0("https://curso-r.github.io/", params$main_repo, "/", nome),
+  nome = CursoRopen:::list_github_files(params$turma, "exercicios/"),
+  link = paste0("https://curso-r.github.io/", params$turma, "/", nome),
   exercicio = glue::glue("[{nome}]({link})")
 ) %>%
     dplyr::filter(!stringr::str_detect(nome, "resolucao_")) %>% 
+    dplyr::filter(stringr::str_detect(nome, "01-|02-")) |> 
   dplyr::select(exercicio) %>% 
-    dplyr::slice(1) |> 
+
   knitr::kable()
 ```
 
@@ -148,7 +148,7 @@ tibble::tibble(
   pasta_compactada = glue::glue("[{script}]({link})")
 ) %>% 
   dplyr::select(pasta_compactada) %>% 
-    dplyr::slice(0) |> 
+  #  dplyr::slice(0) |> 
   knitr::kable()
 ```
 

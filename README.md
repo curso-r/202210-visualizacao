@@ -80,11 +80,19 @@ relacionadas com o conteúdo da aula).
 |    2 | 2\. Otimização | [Color brewer](https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3)                                                                                  |
 |    2 | 2\. Otimização | [Tinter, voce da uma cor e ele gera uma paleta!](https://github.com/sebdalgarno/tinter)                                                                    |
 |    2 | 2\. Otimização | [Pacote para visualização de paletas de cores](https://github.com/EmilHvitfeldt/paletteer)                                                                 |
-|    2 | 2\. Otimização | [Visualização de paletas para daltonicos](https://davidmathlogic.com/colorblind/#%23D81B60-%231E88E5-%23FFC107-%23004D40)                                  |
+|    2 | 2\. Otimização | [Visualização de paletas para pessoas com daltonismo](https://davidmathlogic.com/colorblind/#%23D81B60-%231E88E5-%23FFC107-%23004D40)                      |
 |    2 | 2\. Otimização | [Pacote extrafont - importar fontes no windows](https://github.com/wch/extrafont)                                                                          |
 |    2 | 2\. Otimização | [Exemplos de ggthemes](https://yutannihilation.github.io/allYourFigureAreBelongToUs/ggthemes/)                                                             |
 |    2 | 2\. Otimização | [Documentação Color Brewer ggplot2](https://ggplot2.tidyverse.org/reference/scale_brewer.html)                                                             |
+|    2 | 2\. Otimização | [Galeria data-to-viz - ajuda a escolher qual visualização usar](https://www.data-to-viz.com/)                                                              |
+|    2 | 2\. Otimização | [Galeria de gráficos - exemplos com gráfico de linha](https://r-graph-gallery.com/line-plot)                                                               |
+|    2 | 2\. Otimização | [Cheatsheet do ggplot2](https://raw.githubusercontent.com/rstudio/cheatsheets/main/data-visualization.pdf)                                                 |
 |    2 | 2\. Otimização | [Pacote Thematic](https://rstudio.github.io/thematic/index.html)                                                                                           |
+|    2 | 2\. Otimização | [Paleta de cores - Adobe](https://color.adobe.com/pt/create/color-wheel)                                                                                   |
+|    2 | 2\. Otimização | [Pacote com tema do Studio Ghibli](https://ewenme.github.io/ghibli/)                                                                                       |
+|    2 | 2\. Otimização | [Pacote paletteer - galeria de paletas de cores](https://emilhvitfeldt.github.io/paletteer/)                                                               |
+|    2 | 2\. Otimização | [Pacote ggimprensa - temas de jornais brasileiros](https://brunomioto.github.io/ggimprensa/)                                                               |
+|    2 | 2\. Otimização | [Vignette do ggplot2 - exemplos de atributos estéticos](https://ggplot2.tidyverse.org/articles/ggplot2-specs.html)                                         |
 
 ## Redes sociais da Curso-R
 

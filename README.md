@@ -44,16 +44,24 @@ Fora do horário de aula ou monitoria:
 | [01-ggplot2.R](https://github.com/curso-r/202210-visualizacao/blob/main/pratica/01-ggplot2.R)                     |
 | [02-cor.R](https://github.com/curso-r/202210-visualizacao/blob/main/pratica/02-cor.R)                             |
 | [03-otimizacao-visual.R](https://github.com/curso-r/202210-visualizacao/blob/main/pratica/03-otimizacao-visual.R) |
+| [04-anotacoes.R](https://github.com/curso-r/202210-visualizacao/blob/main/pratica/04-anotacoes.R)                 |
+| [05-patchwork.R](https://github.com/curso-r/202210-visualizacao/blob/main/pratica/05-patchwork.R)                 |
+| [06-gganimate.R](https://github.com/curso-r/202210-visualizacao/blob/main/pratica/06-gganimate.R)                 |
+| [07-ggridges.R](https://github.com/curso-r/202210-visualizacao/blob/main/pratica/07-ggridges.R)                   |
+| [08-ggtext.R](https://github.com/curso-r/202210-visualizacao/blob/main/pratica/08-ggtext.R)                       |
 
 ## Lição de casa
 
-| exercicio                                                                                              |
-|:-------------------------------------------------------------------------------------------------------|
-| [exercicios/01-introducao.R](https://curso-r.github.io/202210-visualizacao/exercicios/01-introducao.R) |
-| [exercicios/02-otimizacao.R](https://curso-r.github.io/202210-visualizacao/exercicios/02-otimizacao.R) |
-| [exercicios/02-pinguins.png](https://curso-r.github.io/202210-visualizacao/exercicios/02-pinguins.png) |
-| [exercicios/02-pixar.png](https://curso-r.github.io/202210-visualizacao/exercicios/02-pixar.png)       |
-| [exercicios/02-voos.png](https://curso-r.github.io/202210-visualizacao/exercicios/02-voos.png)         |
+| exercicio                                                                                                                  |
+|:---------------------------------------------------------------------------------------------------------------------------|
+| [exercicios/01-introducao.R](https://curso-r.github.io/202210-visualizacao/exercicios/01-introducao.R)                     |
+| [exercicios/02-otimizacao.R](https://curso-r.github.io/202210-visualizacao/exercicios/02-otimizacao.R)                     |
+| [exercicios/02-pinguins.png](https://curso-r.github.io/202210-visualizacao/exercicios/02-pinguins.png)                     |
+| [exercicios/02-pixar.png](https://curso-r.github.io/202210-visualizacao/exercicios/02-pixar.png)                           |
+| [exercicios/02-voos.png](https://curso-r.github.io/202210-visualizacao/exercicios/02-voos.png)                             |
+| [exercicios/03-extensoes.R](https://curso-r.github.io/202210-visualizacao/exercicios/03-extensoes.R)                       |
+| [exercicios/03-pinguins_histogram.png](https://curso-r.github.io/202210-visualizacao/exercicios/03-pinguins_histogram.png) |
+| [exercicios/03-starwars.png](https://curso-r.github.io/202210-visualizacao/exercicios/03-starwars.png)                     |
 
 ## Trabalhos finais premiados
 
@@ -93,6 +101,17 @@ relacionadas com o conteúdo da aula).
 |    2 | 2\. Otimização | [Pacote paletteer - galeria de paletas de cores](https://emilhvitfeldt.github.io/paletteer/)                                                               |
 |    2 | 2\. Otimização | [Pacote ggimprensa - temas de jornais brasileiros](https://brunomioto.github.io/ggimprensa/)                                                               |
 |    2 | 2\. Otimização | [Vignette do ggplot2 - exemplos de atributos estéticos](https://ggplot2.tidyverse.org/articles/ggplot2-specs.html)                                         |
+|    3 | 3\. Extensões  | [Pacote ggrepel - afastar as anotações (labels)](https://ggrepel.slowkow.com/)                                                                             |
+|    3 | 3\. Extensões  | [Pacote gghighlight - realçando pontos](https://blog.curso-r.com/posts/2020-02-20-gghighlight/)                                                            |
+|    3 | 3\. Extensões  | [Galeria de extensões para o ggplot2](https://exts.ggplot2.tidyverse.org/gallery/)                                                                         |
+|    3 | 3\. Extensões  | [Pacote ggrepel - afastar as anotações (labels)](https://cran.r-project.org/web/packages/ggrepel/vignettes/ggrepel.html)                                   |
+|    3 | 3\. Extensões  | [Hrbrthemes](https://github.com/hrbrmstr/hrbrthemes)                                                                                                       |
+|    3 | 3\. Extensões  | [Pacote ggridges](https://wilkelab.org/ggridges/)                                                                                                          |
+|    3 | 3\. Extensões  | [Pacote gganimate](https://gganimate.com/index.html)                                                                                                       |
+|    3 | 3\. Extensões  | [Capítulo 6 do livro Análises ecológicas no R - Visualização de dado](https://analises-ecologicas.netlify.app/cap6.html)                                   |
+|    3 | 3\. Extensões  | [Colocando anotacoes no patchwork (numero do grafico)](https://patchwork.data-imaginist.com/articles/guides/annotation.html)                               |
+|    3 | 3\. Extensões  | [Pacote gghighlight - realçando pontos](https://yutannihilation.github.io/gghighlight/)                                                                    |
+|    3 | 3\. Extensões  | [Pacote ggpattern](https://coolbutuseless.github.io/package/ggpattern/)                                                                                    |
 
 ## Redes sociais da Curso-R
 

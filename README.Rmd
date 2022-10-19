@@ -5,7 +5,7 @@ params:
   trilha_clean: visualizacao
   turma: 202210-visualizacao
   nome_curso: Visualização de dados
-  num_aula: 2
+  num_aula: 3
   download_material: 'TRUE'
 ---
 
@@ -125,7 +125,7 @@ tibble::tibble(
   exercicio = glue::glue("[{nome}]({link})")
 ) %>%
     dplyr::filter(!stringr::str_detect(nome, "resolucao_")) %>% 
-    dplyr::filter(stringr::str_detect(nome, "01-|02-")) |> 
+    dplyr::filter(stringr::str_detect(nome, "01-|02-|03-")) |> 
   dplyr::select(exercicio) %>% 
 
   knitr::kable()

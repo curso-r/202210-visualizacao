@@ -39,16 +39,18 @@ Fora do horário de aula ou monitoria:
 
 ## Scripts de prática durante a aula
 
-| script                                                                                                            |
-|:------------------------------------------------------------------------------------------------------------------|
-| [01-ggplot2.R](https://github.com/curso-r/202210-visualizacao/blob/main/pratica/01-ggplot2.R)                     |
-| [02-cor.R](https://github.com/curso-r/202210-visualizacao/blob/main/pratica/02-cor.R)                             |
-| [03-otimizacao-visual.R](https://github.com/curso-r/202210-visualizacao/blob/main/pratica/03-otimizacao-visual.R) |
-| [04-anotacoes.R](https://github.com/curso-r/202210-visualizacao/blob/main/pratica/04-anotacoes.R)                 |
-| [05-patchwork.R](https://github.com/curso-r/202210-visualizacao/blob/main/pratica/05-patchwork.R)                 |
-| [06-gganimate.R](https://github.com/curso-r/202210-visualizacao/blob/main/pratica/06-gganimate.R)                 |
-| [07-ggridges.R](https://github.com/curso-r/202210-visualizacao/blob/main/pratica/07-ggridges.R)                   |
-| [08-ggtext.R](https://github.com/curso-r/202210-visualizacao/blob/main/pratica/08-ggtext.R)                       |
+| script                                                                                                                  |
+|:------------------------------------------------------------------------------------------------------------------------|
+| [01-ggplot2.R](https://github.com/curso-r/202210-visualizacao/blob/main/pratica/01-ggplot2.R)                           |
+| [02-cor.R](https://github.com/curso-r/202210-visualizacao/blob/main/pratica/02-cor.R)                                   |
+| [03-otimizacao-visual.R](https://github.com/curso-r/202210-visualizacao/blob/main/pratica/03-otimizacao-visual.R)       |
+| [04-anotacoes.R](https://github.com/curso-r/202210-visualizacao/blob/main/pratica/04-anotacoes.R)                       |
+| [05-patchwork.R](https://github.com/curso-r/202210-visualizacao/blob/main/pratica/05-patchwork.R)                       |
+| [06-gganimate.R](https://github.com/curso-r/202210-visualizacao/blob/main/pratica/06-gganimate.R)                       |
+| [07-ggridges.R](https://github.com/curso-r/202210-visualizacao/blob/main/pratica/07-ggridges.R)                         |
+| [08-ggtext.R](https://github.com/curso-r/202210-visualizacao/blob/main/pratica/08-ggtext.R)                             |
+| [09-mapas.R](https://github.com/curso-r/202210-visualizacao/blob/main/pratica/09-mapas.R)                               |
+| [10-tabelas-e-graficos.Rmd](https://github.com/curso-r/202210-visualizacao/blob/main/pratica/10-tabelas-e-graficos.Rmd) |
 
 ## Lição de casa
 
@@ -112,6 +114,22 @@ relacionadas com o conteúdo da aula).
 |    3 | 3\. Extensões  | [Colocando anotacoes no patchwork (numero do grafico)](https://patchwork.data-imaginist.com/articles/guides/annotation.html)                               |
 |    3 | 3\. Extensões  | [Pacote gghighlight - realçando pontos](https://yutannihilation.github.io/gghighlight/)                                                                    |
 |    3 | 3\. Extensões  | [Pacote ggpattern](https://coolbutuseless.github.io/package/ggpattern/)                                                                                    |
+|    4 | 4\. Dinâmico   | [Plotly R Open Source Graphing Library](https://plotly.com/r/)                                                                                             |
+|    4 | 4\. Dinâmico   | [Pacote plotly](https://plotly.com/ggplot2/)                                                                                                               |
+|    4 | 4\. Dinâmico   | [Geocoding de endereços](https://github.com/dkahle/ggmap)                                                                                                  |
+|    4 | 4\. Dinâmico   | [Unindo mapas the tidy way](https://blog.curso-r.com/posts/2017-11-23-union-sf/)                                                                           |
+|    4 | 4\. Dinâmico   | [Pacote rayshader - mapas em 3d](https://www.rayshader.com)                                                                                                |
+|    4 | 4\. Dinâmico   | [Documentação do pacote geobr](https://ipeagit.github.io/geobr/)                                                                                           |
+|    4 | 4\. Dinâmico   | [DT - Pacote para tabelas interativas](https://rstudio.github.io/DT/)                                                                                      |
+|    4 | 4\. Dinâmico   | [Organização no GitHub r-spatial](http://github.com/r-spatial/)                                                                                            |
+|    4 | 4\. Dinâmico   | [Conteúdo sobre mapas em português](https://jonnyphillips.github.io/Ciencia_de_Dados/Mapas.html)                                                           |
+|    4 | 4\. Dinâmico   | [Pacote leaflet - mapas interativos](http://rstudio.github.io/leaflet/)                                                                                    |
+|    4 | 4\. Dinâmico   | [Galeria de HTML widgets](http://gallery.htmlwidgets.org/)                                                                                                 |
+|    4 | 4\. Dinâmico   | [Reactable - tabelas interativas](https://glin.github.io/reactable/articles/twitter-followers/twitter-followers.html)                                      |
+|    4 | 4\. Dinâmico   | [Pacote highcharter - gráficos interativos](https://jkunst.com/highcharter/articles/first-steps.html)                                                      |
+|    4 | x\. Miscelânea | [Exemplos maravilhosos de tidytuesday](https://github.com/z3tt/TidyTuesday)                                                                                |
+|    4 | x\. Miscelânea | [Alberto Cairo - Referência sobre visualização de dados](https://twitter.com/AlbertoCairo)                                                                 |
+|    4 | x\. Miscelânea | [Apresentação ggplot wizardry](https://twitter.com/CedScherer/status/1374330476412993541?s=20)                                                             |
 
 ## Redes sociais da Curso-R
 

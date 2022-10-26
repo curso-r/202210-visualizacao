@@ -5,7 +5,7 @@ params:
   trilha_clean: visualizacao
   turma: 202210-visualizacao
   nome_curso: Visualização de dados
-  num_aula: 3
+  num_aula: 4
   download_material: 'TRUE'
 ---
 
@@ -102,7 +102,7 @@ pasta <- "pratica/"
 
 knitr::kable(
   tibble::tibble(
-    script = list.files(pasta, ".R$"),
+    script = list.files(pasta, ".R$|.Rmd$"),
     link = paste0(
       "https://github.com/curso-r/",
       params$turma,
@@ -148,7 +148,6 @@ tibble::tibble(
   pasta_compactada = glue::glue("[{script}]({link})")
 ) %>% 
   dplyr::select(pasta_compactada) %>% 
-  #  dplyr::slice(0) |> 
   knitr::kable()
 ```
 
